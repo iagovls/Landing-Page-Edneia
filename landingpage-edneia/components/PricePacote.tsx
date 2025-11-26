@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function PricePacote() {
   return (
-    <section className="relative px-6 pt-20 bg-gradient-to-r from-red-900  to-red-950">
+    <section className="relative px-6 pt-10 md:pt-20 bg-gradient-to-r from-red-900  to-red-950">
       <div
         className="absolute inset-0 h-full bg-no-repeat bg-center bg-cover"
         style={{
@@ -27,7 +27,7 @@ export default function PricePacote() {
         </div>
 
         <div className="mt-10">
-          <div className="mx-auto md:max-w-[700px] w-11/12 rounded-3xl border border-zinc-200 bg-white shadow-xl/30 shadow-sm p-8 md:p-10">
+          <div className="mx-auto md:max-w-[700px] w-12/12 rounded-3xl border border-zinc-200 bg-white shadow-xl/30 shadow-sm p-8 md:p-10">
             <div className="flex justify-center mb-6">
               <Image
                 src="/a-marca-e-voce-vermelho.png"
@@ -68,7 +68,7 @@ export default function PricePacote() {
           </div>
         </div>
         <div className="mt-10">
-          <div className="mx-auto md:max-w-[700px] w-11/12 rounded-3xl border border-zinc-200 bg-white shadow-xl/30 shadow-sm p-8 md:p-10">
+          <div className="mx-auto md:max-w-[700px] w-full rounded-3xl border border-zinc-200 bg-white shadow-xl/30 shadow-sm p-8 md:p-10">
             <div className="flex justify-center mb-6">
               <Image
                 src="/a-marca-e-voce-vermelho.png"
