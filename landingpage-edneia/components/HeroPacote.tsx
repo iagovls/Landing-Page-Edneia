@@ -1,11 +1,11 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import { CTA_URL, WHATSAPP_NUMBER } from "@/lib/constants";
+import { CTA_URL } from "@/lib/constants";
 import PrimaryButton from "@/components/ui/primary-button";
 
 export default function Hero() {
-  const href = CTA_URL !== "#" ? CTA_URL : `https://wa.me/${WHATSAPP_NUMBER}`;
+  const href = CTA_URL !== "#" ? CTA_URL : `https://wa.me/5573998181724?text=Quero%20empreender%2C%20planejar%20e%20faturar`;
   return (
     <section
       className="relative px-6 py-0 bg-cover bg-center h-dvh flex flex-col justify-center"

@@ -1,11 +1,11 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import { CTA_URL, WHATSAPP_NUMBER } from "@/lib/constants";
+import { CTA_URL } from "@/lib/constants";
 import PrimaryButton from "./ui/primary-button";
 
 export default function HeroMobile() {
-  const href = CTA_URL !== "#" ? CTA_URL : `https://wa.me/${WHATSAPP_NUMBER}`;
+  const href = CTA_URL !== "#" ? CTA_URL : `https://wa.me/5573998181724?text=Quero%20saber%20mais%20sobre%20a%20mentoria%20individual`;
 
   return (
     <section

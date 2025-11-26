@@ -85,7 +85,7 @@ export default function CommunitySection() {
         </p>
         <div className="mt-8 flex justify-center">
           <a
-            href="#cafe-com-proposito"
+            href="https://chat.whatsapp.com/DRZ0QZs3FZ46oe4pwvCjRo?mode=wwt"
             aria-label="Quero participar do Café com Propósito"
             className="inline-flex items-center text-center justify-center rounded-lg bg-gradient-to-r from-[#C53537] to-[#9E3134] text-white px-14 md:px-14 py-8 hover:cursor-pointer text-sm sm:text-xl font-bold transition-transform transition-shadow hover:scale-105 hover:shadow-[0_0_24px_#C73638]"
           >

@@ -10,7 +10,7 @@ import Target from "@/components/Target";
 import CommunitySection from "@/components/CommunitySection";
 import AboutEdneia from "@/components/AboutEdneia";
 import TestimonialsSection from "@/components/TestimonialsSection";
-import FAQSection from "@/components/FAQSection";
+import FAQSectionMentoriaIndividual from "@/components/FAQSectionMentoriaIndividual";
 
 
 export default function Home() {
@@ -36,7 +36,7 @@ export default function Home() {
       
       <AboutEdneia />
       <TestimonialsSection />
-      <FAQSection />
+      <FAQSectionMentoriaIndividual />
       
     </div>
   );

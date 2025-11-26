@@ -22,7 +22,7 @@ export default function Footer() {
           <Link href={`mailto:${CONTACT_EMAIL}`} aria-label="Email" className="flex items-center gap-2">
             <MdOutlineEmail className="w-7 h-7" />
           </Link>
-          <Link href={`https://instagram.com/`} aria-label="Instagram" className="flex items-center gap-2">
+          <Link href={`https://www.instagram.com/edneiasilvamentora/`} aria-label="Instagram" className="flex items-center gap-2">
             <FaInstagram className="w-6 h-6" />
           </Link>
           <Link href={`https://wa.me/${WHATSAPP_NUMBER}`} aria-label="WhatsApp" className="flex items-center gap-2">

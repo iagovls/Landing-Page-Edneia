@@ -79,7 +79,7 @@ export default function FAQSection() {
 
         <div className="mt-10 flex justify-center">
           <a
-            href="#cta"
+            href="https://wa.me/5573998181724?text=Quero%20empreender%2C%20planejar%20e%20faturar"
             aria-label="Quero empreender, planejar e faturar"
             className="inline-flex items-center justify-center text-center rounded-lg bg-gradient-to-r from-[#C53537] to-[#9E3134] text-white px-7 md:px-14 py-8 hover:cursor-pointer text-sm sm:text-xl font-bold transition-transform transition-shadow hover:scale-105 hover:shadow-[0_0_24px_#C73638]"
           >

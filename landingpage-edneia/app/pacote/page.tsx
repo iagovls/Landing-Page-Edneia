@@ -7,6 +7,7 @@ import WhatYouGet from "@/components/WhatYouGet";
 import HeroMobilePacote from "@/components/HeroMobilePacote";
 import WhatYouGetMobile from "@/components/WhatYouGetMobile";
 import PricePacote from "@/components/PricePacote";
+import FAQSection from "@/components/FAQSection";
 
 export default function PacotePage() {
   return (
@@ -28,6 +29,7 @@ export default function PacotePage() {
       <CommunitySection />
       <AboutEdneia />
       <TestimonialsSection />
+      <FAQSection />
     </main>
   );
 }

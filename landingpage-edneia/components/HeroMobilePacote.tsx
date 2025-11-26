@@ -2,10 +2,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import PrimaryButton from "./ui/primary-button";
-import { CTA_URL, WHATSAPP_NUMBER } from "@/lib/constants";
+import { CTA_URL } from "@/lib/constants";
 
 export default function HeroMobilePacote() {
-  const href = CTA_URL !== "#" ? CTA_URL : `https://wa.me/${WHATSAPP_NUMBER}`;
+  const href = CTA_URL !== "#" ? CTA_URL : `https://wa.me/5573998181724?text=Quero%20empreender%2C%20planejar%20e%20faturar`;
 
   return (
     <section
