@@ -1,18 +1,19 @@
 import Image from "next/image";
+import Dash from "./Dash";
 
 export default function CommunitySection() {
   return (
     <section className="px-6 pb-12 pt-10 bg-gradient-to-r from-red-900  to-red-950">
-      <div className="w-auto mx-auto ">
-        <div className="flex flex-col-reverse gap-10 mb-10">
-          <div className="md:flex grid grid-cols-2 gap-4 items-center justify-center">
+      <div className="w-auto mx-auto flex flex-col items-center justify-center">
+        <div className="flex flex-col-reverse gap-10 mb-10 ">
+          <div className="lg:flex grid grid-cols-2 gap-4 items-center md:justify-center">
             <Image
               src="/elas%20com%20proposito1.png"
               alt="Logo Ednéia"
               width={200}
               height={100}
               priority
-              className="shadow-xl/30 md:rotate-6 -rotate-6"
+              className="justify-self-end shadow-xl/30 md:rotate-6 -rotate-6"
             />
             <Image
               src="/elas%20com%20proposito2.png"
@@ -28,7 +29,7 @@ export default function CommunitySection() {
               width={200}
               height={100}
               priority
-              className="shadow-xl/30 rotate-6"
+              className="justify-self-end shadow-xl/30 rotate-6"
             />
             <Image
               src="/elas%20com%20proposito4.png"
@@ -56,7 +57,9 @@ export default function CommunitySection() {
             </div>
             <div className="flex items-end justify-center gap-4">
               <h1 className="text-lg md:text-3xl font-light text-white">
-                <span className="font-light tracking-[0.08em]">e <span className="font-bold">participe</span> do</span>
+                <span className="font-light tracking-[0.08em]">
+                  e <span className="font-bold">participe</span> do
+                </span>
               </h1>
               <div className="flex w-1/2 md:w-auto items-center gap-4">
                 <Image
@@ -71,7 +74,7 @@ export default function CommunitySection() {
           </div>
         </div>
 
-        <p className="md:mt-8 text-white text-center md:text-lg">
+        <p className="md:mt-8 text-white text-center text-xs md:text-lg xl:max-w-1/2 text-center">
           Se você quer aprender mais, trocar ideias e se conectar com outras
           mulheres empreendedoras, entre para o nosso grupo{" "}
           <span className="font-bold">Rede Elas com Propósito!</span> E
@@ -90,8 +93,7 @@ export default function CommunitySection() {
           </a>
         </div>
       </div>
-              <div className="w-24 h-1 bg-[#C73638] mx-auto mt-20 rounded-full" />
-
+      <Dash />
     </section>
   );
 }

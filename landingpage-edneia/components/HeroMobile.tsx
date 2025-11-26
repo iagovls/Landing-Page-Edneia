@@ -2,6 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { CTA_URL, WHATSAPP_NUMBER } from "@/lib/constants";
+import PrimaryButton from "./ui/primary-button";
 
 export default function HeroMobile() {
   const href = CTA_URL !== "#" ? CTA_URL : `https://wa.me/${WHATSAPP_NUMBER}`;
@@ -28,7 +29,7 @@ export default function HeroMobile() {
       </div>
 
       {/* Bloco vermelho */}
-      <div className="relative p-5 mb-10 max-w-md mx-auto bg-[#440001] z-30 mt-60 rounded-2xl border">
+      <div className="relative p-5 mb-10 w-11/12 mx-auto bg-[#440001] z-30 mt-60 rounded-2xl border">
         <div className="flex justify-center">
           <Image
             src="/mentoria%20individual%20logo%20branca.png"
@@ -45,6 +46,7 @@ export default function HeroMobile() {
             em 30 Dias
           </span>
           :{" "}
+          <br />
           <span className="font-bold">
             Aumente Seu Faturamento e Destrave Seu Potencial
           </span>
@@ -68,14 +70,12 @@ export default function HeroMobile() {
           </p>
         </div>
 
-        <div className="mt-8">
-          <Link
-            href={href}
-            aria-label="Garantir minha vaga"
-            className="inline-flex w-full items-center justify-center rounded-lg bg-gradient-to-r from-[#C53537] to-[#9E3134] text-white px-6 py-10 text-lg font-bold transition-transform transition-shadow hover:scale-105 hover:shadow-[0_0_24px_#C73638]"
-          >
-            Garantir minha vaga
-          </Link>
+        <div className="flex mt-10 justify-center ">
+          <PrimaryButton asChild>
+            <Link href={href} aria-label="Garantir minha vaga">
+              Garantir minha vaga
+            </Link>
+          </PrimaryButton>
         </div>
       </div>
     </section>

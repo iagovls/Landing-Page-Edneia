@@ -29,7 +29,7 @@ export default function Footer() {
             <FaWhatsapp className="w-6 h-6" />
           </Link>
         </div>
-        <p className="text-center text-sm">© {new Date().getFullYear()} A Marca é Você. Todos os direitos reservados.</p>
+        <p className="text-center text-xs md:text-sm">© {new Date().getFullYear()} A Marca é Você. Todos os direitos reservados.</p>
       </div>
     </footer>
   );

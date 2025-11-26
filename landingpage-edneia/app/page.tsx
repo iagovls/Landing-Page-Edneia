@@ -1,14 +1,11 @@
 import HeroMobile from "@/components/HeroMobile";
-import Hero from "@/components/Hero";
+import Hero from "@/components/HeroIndividual";
 import JourneySection from "@/components/JourneySection";
 import Benefits from "@/components/Benefits";
 import WhyNow from "@/components/WhyNow";
 import WhyNowMobile from "@/components/WhyNowMobile";
 import Price from "@/components/Price";
-import WhatYouGet from "@/components/WhatYouGet";
-import Process from "@/components/Process";
-import CTASection from "@/components/CTASection";
-import Footer from "@/components/Footer";
+
 import Target from "@/components/Target";
 import CommunitySection from "@/components/CommunitySection";
 import AboutEdneia from "@/components/AboutEdneia";
@@ -18,11 +15,11 @@ import FAQSection from "@/components/FAQSection";
 
 export default function Home() {
   return (
-    <div className="font-sans bg-red-950">
-      <div className="md:hidden">
+    <div className="font-sans bg-gradient-to-r from-red-900 to-red-950">
+      <div className="xl:hidden">
         <HeroMobile />
       </div>
-      <div className="hidden md:block">
+      <div className="hidden xl:block">
         <Hero /> 
       </div>
       <JourneySection />
@@ -41,7 +38,6 @@ export default function Home() {
       <TestimonialsSection />
       <FAQSection />
       
-      <Footer />
     </div>
   );
 }

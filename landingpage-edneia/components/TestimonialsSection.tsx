@@ -75,7 +75,7 @@ export default function TestimonialsSection() {
               </div>
               <div className="px-6 pb-6">
                 <p
-                  className="text-white/90 font-light"
+                  className="text-white/90 font-light text-xs md:text-sm"
                   dangerouslySetInnerHTML={{ __html: emph(it.text, it.emphasize) }}
                 />
               </div>
