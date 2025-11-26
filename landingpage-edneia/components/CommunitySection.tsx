@@ -3,9 +3,9 @@ import Dash from "./Dash";
 
 export default function CommunitySection() {
   return (
-    <section className="px-6 pb-12 pt-10 bg-gradient-to-r from-red-900  to-red-950">
+    <section className="px-6 pb-12 pt-0 md:pt-10 bg-gradient-to-r from-red-900  to-red-950">
       <div className="w-auto mx-auto flex flex-col items-center justify-center">
-        <div className="flex flex-col-reverse gap-10 mb-10 ">
+        <div className="flex flex-col-reverse  md:gap-10 mb-10 ">
           <div className="lg:flex grid grid-cols-2 gap-4 items-center md:justify-center">
             <Image
               src="/elas%20com%20proposito1.png"
@@ -42,7 +42,7 @@ export default function CommunitySection() {
           </div>
           <div className="flex flex-col gap-2 h-48 items-center justify-center">
             <div className="flex items-end justify-center gap-4">
-              <h1 className="text-lg md:text-3xl leading-snug font-light text-white">
+              <h1 className=" md:text-3xl leading-snug font-light text-white">
                 <span className="font-bold">Junte-se</span> à rede
               </h1>
               <div className="w-1/2 md:w-auto">
@@ -56,7 +56,7 @@ export default function CommunitySection() {
               </div>
             </div>
             <div className="flex items-end justify-center gap-4">
-              <h1 className="text-lg md:text-3xl font-light text-white">
+              <h1 className="md:text-3xl font-light text-white">
                 <span className="font-light tracking-[0.08em]">
                   e <span className="font-bold">participe</span> do
                 </span>
@@ -87,9 +87,9 @@ export default function CommunitySection() {
           <a
             href="#cafe-com-proposito"
             aria-label="Quero participar do Café com Propósito"
-            className="inline-flex items-center text-center justify-center rounded-lg bg-gradient-to-r from-[#C53537] to-[#9E3134] text-white px-14 py-8 hover:cursor-pointer text-lg sm:text-xl font-bold transition-transform transition-shadow hover:scale-105 hover:shadow-[0_0_24px_#C73638]"
+            className="inline-flex items-center text-center justify-center rounded-lg bg-gradient-to-r from-[#C53537] to-[#9E3134] text-white px-14 md:px-14 py-8 hover:cursor-pointer text-sm sm:text-xl font-bold transition-transform transition-shadow hover:scale-105 hover:shadow-[0_0_24px_#C73638]"
           >
-            Quero participar do Café com Propósito
+            Quero participar do <br /> Café com Propósito
           </a>
         </div>
       </div>

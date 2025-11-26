@@ -12,7 +12,7 @@ export default function WhatYouGet() {
     <section className=" pt-16 bg-gradient-to-r from-red-900 to-red-950">
       <div className=" mx-auto grid gap-8 items-start xl:w-[1100px]">
         <div className="flex flex-col items-center space-y-4">
-          <h1 className="text-3xl md:text-4xl font-bold text-white text-center">
+          <h1 className="text-2xl md:text-4xl font-bold text-white text-center">
             O que você vai receber
           </h1>
           <h2
@@ -36,37 +36,39 @@ export default function WhatYouGet() {
           </div>
 
           <div className="relative flex bg-[url('/montain.jpg')] bg-auto bg-top rounded-2xl mt-10 max-w-[800px]">
-            <div className="relative grid grid-cols-2 gap-4 p-4 ">
+            <div className="relative grid grid-cols-1 md:grid-cols-2  gap-4 p-4 ">
               <div className="flex flex-col text-xs items-start gap-2 rounded-xl border border-white/20 bg-white/10 backdrop-blur-xs p-4 text-red-900">
-                <div className="flex flex-col items-start gap-0 text-base">
-                  <div className="flex items-center justify-center w-14 h-14 bg-white rounded-full ">
+                <div className="flex flex-col items-start gap-2 text-base">
+                  <div className="flex flex-col items-center justify-center w-14 h-14 bg-white rounded-full ">
                     <FaChalkboardTeacher className="w-10 h-10" />
                   </div>
                   <span
                     dangerouslySetInnerHTML={{ __html: boldify("*Aula 1*") }}
-                    className="text-red-900"
+                    className="text-red-900 "
                   />
                   <span
                     dangerouslySetInnerHTML={{
                       __html: boldify("*Metas e Objetivos:*"),
                     }}
-                    className="text-red-900"
+                    className="text-red-900 -mt-3"
                   />
                 </div>
-                <p className="font-light mt-1">
-                  Defina e Alcance o Que Realmente Importa
-                </p>
-                <p
-                  className="font-light mt-2"
-                  dangerouslySetInnerHTML={{
-                    __html: boldify(
-                      "Aprenda a *definir metas claras* para seu negócio, alinhando seus objetivos financeiros e profissionais."
-                    ),
-                  }}
-                />
+                <div className="bg-white rounded-lg p-2">
+                  <p className="mt-1">
+                    Defina e Alcance o Que Realmente Importa
+                  </p>
+                  <p
+                    className="mt-2"
+                    dangerouslySetInnerHTML={{
+                      __html: boldify(
+                        "Aprenda a *definir metas claras* para seu negócio, alinhando seus objetivos financeiros e profissionais."
+                      ),
+                    }}
+                  />
+                </div>
               </div>
               <div className="flex flex-col items-start gap-2 rounded-xl border border-white/20 bg-white/10 backdrop-blur-xs p-4 text-red-900 text-xs">
-                <div className="flex flex-col items-start gap-0 text-base">
+                <div className="flex flex-col items-start gap-2 text-base">
                   <div className="flex items-center justify-center w-14 h-14 bg-white rounded-full ">
                     <FaChalkboardTeacher className="w-10 h-10" />
                   </div>
@@ -78,23 +80,25 @@ export default function WhatYouGet() {
                     dangerouslySetInnerHTML={{
                       __html: boldify("*Plano de ação:*"),
                     }}
-                    className="text-red-900"
+                    className="text-red-900 -mt-3"
                   />
                 </div>
-                <p className="font-light mt-1">
-                  Organize Seus Passos e Aumente o Faturamento
-                </p>
-                <p
-                  className="font-light mt-2"
-                  dangerouslySetInnerHTML={{
-                    __html: boldify(
-                      "Monte um *plano de ação claro e eficiente* para executar suas metas de forma estruturada."
-                    ),
-                  }}
-                />
+                <div className="bg-white rounded-lg p-2">
+                  <p className="mt-1">
+                    Organize Seus Passos e Aumente o Faturamento
+                  </p>
+                  <p
+                    className="mt-2"
+                    dangerouslySetInnerHTML={{
+                      __html: boldify(
+                        "Monte um *plano de ação claro e eficiente* para executar suas metas de forma estruturada."
+                      ),
+                    }}
+                  />
+                </div>
               </div>
               <div className="flex flex-col items-start gap-2 rounded-xl border border-white/20 bg-white/10 backdrop-blur-xs p-4 text-red-900 text-xs">
-                <div className="flex flex-col items-start gap-0 text-base">
+                <div className="flex flex-col items-start gap-2 text-base">
                   <div className="flex items-center justify-center w-14 h-14 bg-white rounded-full ">
                     <FaYoutube className="w-10 h-10" />
                   </div>
@@ -105,20 +109,22 @@ export default function WhatYouGet() {
                     className="text-red-900"
                   />
                 </div>
-                <p className="font-light mt-1">
-                  9 Segredos Para Aumentar o Faturamento
-                </p>
-                <p
-                  className="font-light mt-2"
-                  dangerouslySetInnerHTML={{
-                    __html: boldify(
-                      "Descubra técnicas práticas para *aumentar seu faturamento de forma sustentável*, com estratégias que você pode implementar imediatamente no seu negócio."
-                    ),
-                  }}
-                />
+                <div className="bg-white rounded-lg p-2">
+                  <p className=" mt-1">
+                    9 Segredos Para Aumentar o Faturamento
+                  </p>
+                  <p
+                    className="mt-2"
+                    dangerouslySetInnerHTML={{
+                      __html: boldify(
+                        "Descubra técnicas práticas para *aumentar seu faturamento de forma sustentável*, com estratégias que você pode implementar imediatamente no seu negócio."
+                      ),
+                    }}
+                  />
+                </div>
               </div>
               <div className="flex flex-col items-start gap-2 rounded-xl border border-white/20 bg-white/10 backdrop-blur-xs p-4 text-red-900 text-xs">
-                <div className="flex flex-col items-start gap-0 text-base">
+                <div className="flex flex-col items-start gap-2 text-base">
                   <div className="flex items-center justify-center w-14 h-14 bg-white rounded-full ">
                     <FaBook className="w-10 h-10" />
                   </div>
@@ -129,17 +135,20 @@ export default function WhatYouGet() {
                     className="text-red-900"
                   />
                 </div>
-                <p className="font-light mt-1">
-                  9 Segredos Para Aumentar o Faturamento
-                </p>
-                <p
-                  className="font-light mt-2"
-                  dangerouslySetInnerHTML={{
-                    __html: boldify(
-                      "Receba *ferramentas e modelos* que vão ajudar a *organizar seus custos fixos e variáveis*, além de otimizar o processo de *planejamento e execução*."
-                    ),
-                  }}
-                />
+                
+                <div className="bg-white rounded-lg p-2">
+                  <p className="font-light mt-1">
+                    9 Segredos Para Aumentar o Faturamento
+                  </p>
+                  <p
+                    className="font-light mt-2"
+                    dangerouslySetInnerHTML={{
+                      __html: boldify(
+                        "Receba *ferramentas e modelos* que vão ajudar a *organizar seus custos fixos e variáveis*, além de otimizar o processo de *planejamento e execução*."
+                      ),
+                    }}
+                  />
+                </div>
               </div>
             </div>
           </div>

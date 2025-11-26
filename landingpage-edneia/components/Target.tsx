@@ -106,11 +106,11 @@ export default function Target() {
             <g
               key={`ring-g-${i}`}
               transform={`translate(${tx}, ${ty})`}
-              onMouseEnter={() => !mobile && setActive(idx)}
-              onMouseLeave={() => !mobile && setActive(null)}
-              onClick={() => setActive(active === idx ? null : idx)}
-              onTouchStart={() => setActive(active === idx ? null : idx)}
-              className={`transition-transform duration-200 ease-out hover:scale-105 ${activeScale} cursor-pointer`}
+              onMouseEnter={!mobile ? () => setActive(idx) : undefined}
+              onMouseLeave={!mobile ? () => setActive(null) : undefined}
+              onClick={!mobile ? () => setActive(active === idx ? null : idx) : undefined}
+              onTouchStart={mobile ? (e) => { e.preventDefault(); setActive(active === idx ? null : idx) } : undefined}
+              className={`transition-transform duration-200 ease-out hover:scale-110 ${activeScale} cursor-pointer`}
               style={{ transformBox: 'fill-box', transformOrigin: 'center' }}
             >
               <path
@@ -130,10 +130,10 @@ export default function Target() {
             <g
               key={`disc-g-${i}`}
               transform={`translate(${tx}, ${ty})`}
-              onMouseEnter={() => !mobile && setActive(idx)}
-              onMouseLeave={() => !mobile && setActive(null)}
-              onClick={() => setActive(active === idx ? null : idx)}
-              onTouchStart={() => setActive(active === idx ? null : idx)}
+              onMouseEnter={!mobile ? () => setActive(idx) : undefined}
+              onMouseLeave={!mobile ? () => setActive(null) : undefined}
+              onClick={!mobile ? () => setActive(active === idx ? null : idx) : undefined}
+              onTouchStart={mobile ? (e) => { e.preventDefault(); setActive(active === idx ? null : idx) } : undefined}
               className={`transition-transform duration-200 ease-out hover:scale-110 ${activeScale} cursor-pointer`}
               style={{ transformBox: 'fill-box', transformOrigin: 'center' }}
             >
@@ -161,7 +161,7 @@ export default function Target() {
         const Icon = infoIcons[active]
         return (
           <div className="absolute" style={pos}>
-            <div className="bg-white text-zinc-900 rounded-xl shadow-lg px-4 py-3 w-96 flex items-center gap-5">
+            <div className="bg-white ring-red-500 ring-1 text-zinc-900 rounded-xl shadow-lg px-4 py-3 mb-2 md:w-96 w-80 flex items-center gap-5">
               <Icon className="w-10 h-10 md:w-12 md:h-12 text-[#C73638] shrink-0" />
               <p className="text-sm md:text-lg font-semibold">{infoItems[active]}</p>
             </div>

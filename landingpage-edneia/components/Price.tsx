@@ -3,23 +3,23 @@ import Image from "next/image";
 
 export default function Price() {
   return (
-    <section className="relative px-6 py-20 bg-gradient-to-r from-red-900  to-red-950">
+    <section className="relative px-6 py-10 md:py-20 bg-gradient-to-r from-red-900  to-red-950">
       <div
         className="absolute inset-0 h-full bg-no-repeat bg-center bg-cover"
         style={{ backgroundImage: "url('/logo%20marca%20%C3%A9%20voc%C3%AA%20a4_retrato.png')" }}
       />
       <div className="relative max-w-6xl mx-auto">
         <div className="text-center space-y-3">
-          <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-white">
+          <h2 className="text-2xl sm:text-4xl font-semibold tracking-tight text-white">
             <span className="font-light">Invista no</span> <br /> Crescimento do Seu Negócio
           </h2>
-          <p className="md:w-1/2 w-full text-center mx-auto text-white md:text-lg">
+          <p className="md:w-1/2 w-full text-center mx-auto text-shadow-xs text-shadow-black white md:text-lg">
             Uma oportunidade para acelerar resultados com estratégia, foco e acompanhamento. Mais do que um preço, um passo decisivo.
           </p>
         </div>
 
         <div className="mt-10">
-          <div className="mx-auto max-w-[700px] rounded-3xl border border-zinc-200 bg-white shadow-xl/30 shadow-sm p-8 md:p-10">
+          <div className="mx-auto max-w-[700px] rounded-3xl border flex flex-col items-center justify-center border-zinc-200 bg-white shadow-xl/30 shadow-sm p-8 md:p-10">
             <div className="flex justify-center mb-6">
               <Image
                 src="/mentoria%20individual%20logo.png" 
@@ -39,7 +39,7 @@ export default function Price() {
               <div className="text-right" />
             </div>
 
-            <p className="mt-4 text-zinc-700 text-center">
+            <p className="mt-4 text-zinc-700 text-sm text-center">
               O valor de R$ 1.497,00 é um investimento no futuro do seu negócio — não um custo. Com o plano certo, você amplia o potencial de faturamento com ações práticas, objetivas e personalizadas.
             </p>
 
@@ -48,12 +48,12 @@ export default function Price() {
                 "Estratégia personalizada",
                 "Ações práticas e objetivas",
                 "Acompanhamento orientado",
-                "Aumento real e consistente do faturamento",
+                "Aumento do faturamento",
                 "Suporte dedicado",
               ].map((item) => (
-                <li key={item} className="flex items-start gap-3">
+                <li key={item} className="flex items-center gap-3">
                   <CheckCircle2 className="w-5 h-5 text-[#C73638] mt-0.5" />
-                  <span className="text-zinc-800">{item}</span>
+                  <span className="text-zinc-800 text-sm">{item}</span>
                 </li>
               ))}
             </ul>
@@ -61,16 +61,16 @@ export default function Price() {
             <div className="mt-8 flex flex-col items-center justify-center">
               <a
                 href="#cta"
-                className="inline-flex w-full items-center text-center rounded-lg bg-gradient-to-r from-[#C53537] to-[#9E3134] text-white px-14 py-8 hover:cursor-pointer text-lg sm:text-xl font-bold transition-transform transition-shadow hover:scale-105 hover:shadow-[0_0_24px_#C73638]"
+                className="inline-flex w-full items-center text-center rounded-lg bg-gradient-to-r from-[#C53537] to-[#9E3134] text-white px-14 py-8 hover:cursor-pointer text-sm sm:text-xl font-bold transition-transform transition-shadow hover:scale-105 hover:shadow-[0_0_24px_#C73638]"
                 aria-label="Quero Destravar Meu Crescimento"
               >
                 Quero Destravar Meu Crescimento
               </a>
             </div>
 
-            <div className="mt-6 flex items-center text-center gap-0 text-zinc-600">
-              <ShieldCheck className="w-10 h-10 text-[#C73638]" />
-              <p className="text-sm">Processo validado por diversos empreendedores.</p>
+            <div className="mt-6 flex flex-col items-center justify-center w-10/12 text-center gap-0 text-zinc-600">
+              <ShieldCheck className="md:w-10 md:h-10 text-[#C73638]" />
+              <p className="md:text-sm text-xs">Processo validado por diversos empreendedores.</p>
             </div>
           </div>
         </div>

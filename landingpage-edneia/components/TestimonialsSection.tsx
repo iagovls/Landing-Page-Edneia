@@ -54,12 +54,12 @@ export default function TestimonialsSection() {
 
   return (
     <section
-      className="relative px-6 py-16 bg-cover bg-center"
+      className="relative px-6 md:py-16 py-8 bg-cover bg-center"
       style={{ backgroundImage: "url('/bg%20plateia.png')" }}
     >
       <div className="absolute inset-0 bg-black/40" />
       <div className="relative max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-semibold text-white text-center">Depoimentos</h2>
+        <h2 className="text-2xl md:text-4xl font-semibold text-white text-center">Depoimentos</h2>
         <div className="mt-8 grid gap-8 md:grid-cols-2">
           {items.map((it) => (
             <div

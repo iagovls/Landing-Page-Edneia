@@ -54,11 +54,11 @@ export default function JourneySection() {
                 backgroundPosition: "center",
               }}
             >
-              <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/60 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/80 to-transparent" />
               <div className="relative p-6 pb-8 md:pb-10 flex h-full flex-col justify-end">
                 <h2 className="text-2xl font-semibold text-white">{card.title}</h2>
                 <p
-                  className="mt-3 font-extralight text-white/90"
+                  className="mt-3 font-extralight text-sm text-white/90"
                   dangerouslySetInnerHTML={{
                     __html: renderText(card.text, card.emphasize),
                   }}

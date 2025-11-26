@@ -40,7 +40,7 @@ export default function HeroMobile() {
           />
         </div>
 
-        <p className="mt-6 text-2xl text-white text-center">
+        <p className="mt-6 text-xl text-white text-center">
           Transforme Seu Negócio{" "}
           <span className="font-bold text-[#C73638] whitespace-nowrap">
             em 30 Dias
@@ -53,7 +53,7 @@ export default function HeroMobile() {
           !
         </p>
 
-        <div className="mt-6 space-y-4 text-white">
+        <div className="mt-6 space-y-4 text-sm text-white">
           <p>
             Empreender é mais do que ter uma ideia. É sobre transformar essa
             ideia em um negócio próspero.

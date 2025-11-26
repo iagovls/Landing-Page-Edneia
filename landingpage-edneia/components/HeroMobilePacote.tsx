@@ -51,7 +51,7 @@ export default function HeroMobilePacote() {
           !
         </p>
 
-        <div className="mt-6 space-y-4 text-white">
+        <div className="mt-6 space-y-4 text-sm text-white">
           <p>
             Empreender é mais do que ter uma ideia. É sobre transformar essa
             ideia em um negócio próspero.

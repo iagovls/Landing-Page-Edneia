@@ -35,11 +35,11 @@ function FAQItem({ q, a }: { q: string; a: string }) {
         <p className="text-white font-medium">{q}</p>
       </button>
       <div
-        style={{ height, transition: "height 300ms ease" }}
+        style={{ height: open ? "auto" : 0, transition: "height 300ms ease" }}
         className="overflow-hidden"
         id={panelId}
       >
-        <div ref={ref} className="px-6 py-3 text-zinc-700">
+        <div ref={ref} className="px-6 md:py-3 py-2 text-zinc-700">
           {a}
         </div>
       </div>
@@ -66,12 +66,12 @@ export default function FAQSection() {
   return (
     <section className="px-6 py-16 bg-white">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-2xl md:text-3xl font-semibold text-red-900 text-center">
+        <h2 className="text-xl md:text-3xl font-semibold text-red-900 text-center">
           Ainda tem dúvidas? Aqui estão as respostas para você
         </h2>
         <p className="mt-2 text-center text-red-600">Perguntas frequentes</p>
 
-        <div className="mt-8 space-y-4 ">
+        <div className="md:mt-8 mt-4 md:text-base text-sm md:space-y-4 space-y-2">
           {faqs.map((item) => (
             <FAQItem key={item.q} q={item.q} a={item.a} />
           ))}
@@ -81,7 +81,7 @@ export default function FAQSection() {
           <a
             href="#cta"
             aria-label="Quero empreender, planejar e faturar"
-            className="inline-flex items-center justify-center text-center rounded-lg bg-gradient-to-r from-[#C53537] to-[#9E3134] text-white px-14 py-8 hover:cursor-pointer text-lg sm:text-xl font-bold transition-transform transition-shadow hover:scale-105 hover:shadow-[0_0_24px_#C73638]"
+            className="inline-flex items-center justify-center text-center rounded-lg bg-gradient-to-r from-[#C53537] to-[#9E3134] text-white px-7 md:px-14 py-8 hover:cursor-pointer text-sm sm:text-xl font-bold transition-transform transition-shadow hover:scale-105 hover:shadow-[0_0_24px_#C73638]"
           >
             Quero empreender, planejar e faturar
           </a>
