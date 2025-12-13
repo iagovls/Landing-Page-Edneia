@@ -46,7 +46,7 @@ export default function Hero() {
             width={480}
             height={360}
             sizes="(min-width: 640px) 480px, 100vw"
-            className="w-9/12"
+            className="w-9/12 max-w-9/12"
             priority
           />
         </div>
