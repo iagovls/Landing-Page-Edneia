@@ -13,6 +13,14 @@ export const metadata: Metadata = {
     
     locale: "pt_BR",
     type: "website",
+    images: [
+      {
+        url: "\logo marca é você a4_retrato.png",
+        width: 724,
+        height: 1024,
+        alt: "Pacotes - A Marca é Você",
+      },
+    ],
   },
 }
 
