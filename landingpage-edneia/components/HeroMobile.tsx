@@ -39,6 +39,7 @@ export default function HeroMobile() {
             priority
           />
         </div>
+        <p className="mt-3 text-sm text-white text-center">Desenvolvendo pessoas, fortalecendo empresas e transformando histórias.</p>
 
         <p className="mt-6 text-xl text-white text-center">
           Transforme Seu Negócio{" "}
