@@ -23,6 +23,7 @@ export default function Hero() {
             height={80}
             priority
           />
+          <p className="mt-3 text-sm text-white">Desenvolvendo pessoas, fortalecendo empresas e transformando histórias.</p>
           <p className="mt-6 text-3xl font-light  text-white">
             Transforme Seu Negócio <span className="font-bold text-[#C73638] whitespace-nowrap">em 30 Dias</span>: <span className="font-bold">Aumente Seu Faturamento e Destrave Seu Potencial</span>!
           </p>
