@@ -40,8 +40,14 @@ export default function Home() {
               <p className="mt-3 leading-relaxed text-rose-100">
                 Cultura organizacional, desenvolvimento de líderes e equipes, atendimento e soluções que unem pessoas e resultados empresariais.
               </p>
-              <a href="https://wa.me/?text=Ol%C3%A1%21%20Quero%20conhecer%20as%20solu%C3%A7%C3%B5es%20da%20A%20Marca%20%C3%89%20Voc%C3%AA%20Business." target="_blank" rel="noopener noreferrer" className="mt-6 inline-block rounded-lg bg-rose-300 px-5 py-3 font-semibold text-red-950 transition hover:bg-rose-200">
-                Conversar sobre minha empresa
+              <a href="/raio-x-empresarial-360" className="mt-6 inline-block rounded-lg bg-[#E8C37A] px-5 py-3 font-semibold text-[#70283F] transition hover:bg-[#F6DFA8]">
+                Fazer pré-diagnóstico gratuito
+              </a>
+              <p className="mt-4 text-sm text-rose-100">
+                Em cerca de 2 minutos, descubra quais áreas da sua empresa merecem atenção.
+              </p>
+              <a href="https://wa.me/5573998181724?text=Ol%C3%A1%21%20Quero%20conhecer%20as%20solu%C3%A7%C3%B5es%20da%20A%20Marca%20%C3%89%20Voc%C3%AA%20Business." target="_blank" rel="noopener noreferrer" className="mt-3 inline-block text-sm font-semibold text-[#F6DFA8] underline underline-offset-4 hover:text-white">
+                Prefiro conversar diretamente
               </a>
             </div>
           </div>
