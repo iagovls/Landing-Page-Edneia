@@ -38,16 +38,16 @@ export default function Home() {
             <div className="rounded-2xl border border-white/20 bg-white/10 p-6 md:p-8">
               <h2 className="text-2xl font-bold">A Marca É Você® Business</h2>
               <p className="mt-3 leading-relaxed text-rose-100">
-                Cultura organizacional, desenvolvimento de líderes e equipes, atendimento e soluções que unem pessoas e resultados empresariais.
+                Sua empresa só funciona quando você está presente? Consultoria personalizada para fortalecer a gestão, desenvolver lideranças e construir equipes que assumem responsabilidades.
               </p>
-              <a href="/raio-x-empresarial-360" className="mt-6 inline-block rounded-lg bg-[#E8C37A] px-5 py-3 font-semibold text-[#70283F] transition hover:bg-[#F6DFA8]">
-                Fazer pré-diagnóstico gratuito
+              <a href="/business" className="mt-6 inline-block rounded-lg bg-[#E8C37A] px-5 py-3 font-semibold text-[#70283F] transition hover:bg-[#F6DFA8]">
+                Conhecer a consultoria Business
               </a>
               <p className="mt-4 text-sm text-rose-100">
-                Em cerca de 2 minutos, descubra quais áreas da sua empresa merecem atenção.
+                O gestor pode não estar presente, mas a cultura está.
               </p>
               <a href="https://wa.me/5573998181724?text=Ol%C3%A1%21%20Quero%20conhecer%20as%20solu%C3%A7%C3%B5es%20da%20A%20Marca%20%C3%89%20Voc%C3%AA%20Business." target="_blank" rel="noopener noreferrer" className="mt-3 inline-block text-sm font-semibold text-[#F6DFA8] underline underline-offset-4 hover:text-white">
-                Prefiro conversar diretamente
+                Falar sobre minha empresa
               </a>
             </div>
           </div>
