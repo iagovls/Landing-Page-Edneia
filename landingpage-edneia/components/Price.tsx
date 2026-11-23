@@ -58,7 +58,7 @@ export default function Price() {
 
             <div className="mt-6 flex flex-col items-center justify-center w-10/12 text-center gap-0 text-zinc-600">
               <ShieldCheck className="md:w-10 md:h-10 text-[#C73638]" />
-              <p className="md:text-sm text-xs">Processo validado por diversos empreendedores.</p>
+              <p className="md:text-sm text-xs">Acompanhamento personalizado, com foco em clareza, estratégia e ação.</p>
             </div>
           </div>
         </div>
