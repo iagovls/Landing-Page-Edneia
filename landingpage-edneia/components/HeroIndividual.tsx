@@ -35,7 +35,7 @@ export default function Hero() {
           <div className="flex mt-10 justify-start">
             <PrimaryButton asChild>
               <Link href={href} aria-label="Quero conversar sobre minha mentoria">
-                Garantir minha vaga
+                Quero conversar sobre minha mentoria
               </Link>
             </PrimaryButton>
           </div>
