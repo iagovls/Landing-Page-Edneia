@@ -33,7 +33,7 @@ export default function RedeElasPage(){
      <Image src="/B8C0B3CC-F55E-4040-A866-1F5393045C70.png" alt="Registro real de mulheres participantes da Rede Elas com Propósito" width={1200} height={720} className="h-auto w-full object-cover" />
     </div>
     <div className="mt-10 grid items-center gap-7 rounded-2xl border border-[#E8D8D6] bg-white p-6 md:grid-cols-[220px_1fr] md:p-8">
-     <Image src="/imagem%20quem%20%C3%A9%20Edneia.png" alt="Ednéia Silva, idealizadora da Rede Elas com Propósito" width={220} height={260} className="mx-auto h-auto max-h-64 w-full max-w-[220px] rounded-xl object-contain" />
+     <Image src="/913B763B-86BA-4574-AB03-864906457011.jpeg" alt="Ednéia Silva, idealizadora da Rede Elas com Propósito" width={220} height={260} className="mx-auto h-auto max-h-64 w-full max-w-[220px] rounded-xl object-contain" />
      <div><p className="text-xs font-bold uppercase tracking-widest text-[#A78347]">Quem idealizou essa rede</p><h3 className="mt-2 text-2xl font-bold text-[#70283F]">Ednéia Silva</h3><p className="mt-3 leading-relaxed">Acredito na força de mulheres que se conectam, compartilham experiências e crescem juntas. A Rede Elas com Propósito nasceu para aproximar mulheres e abrir espaço para encontros, aprendizado e novas oportunidades.</p><a href="#participar" className="mt-5 inline-block font-bold text-[#70283F] underline underline-offset-4">Quero fazer parte dessa rede</a></div>
     </div>
    </div>
