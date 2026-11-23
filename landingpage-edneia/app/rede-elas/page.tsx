@@ -30,7 +30,7 @@ export default function RedeElasPage(){
     <p className="text-xs font-bold uppercase tracking-widest text-[#A78347]">Mulheres reais, conexões verdadeiras</p>
     <h2 className="mt-3 max-w-3xl text-3xl font-bold text-[#70283F] md:text-4xl">Aqui, cada mulher tem uma história. E juntas, construímos novas possibilidades.</h2>
     <div className="mt-8 overflow-hidden rounded-2xl border border-[#E8D8D6] bg-white shadow-sm">
-     <Image src="/elas%20com%20proposito1.png" alt="Registro real de mulheres participantes da Rede Elas com Propósito" width={1200} height={720} className="h-auto w-full object-cover" />
+     <Image src="/B8C0B3CC-F55E-4040-A866-1F5393045C70.png" alt="Registro real de mulheres participantes da Rede Elas com Propósito" width={1200} height={720} className="h-auto w-full object-cover" />
     </div>
     <div className="mt-10 grid items-center gap-7 rounded-2xl border border-[#E8D8D6] bg-white p-6 md:grid-cols-[220px_1fr] md:p-8">
      <Image src="/imagem%20quem%20%C3%A9%20Edneia.png" alt="Ednéia Silva, idealizadora da Rede Elas com Propósito" width={220} height={260} className="mx-auto h-auto max-h-64 w-full max-w-[220px] rounded-xl object-contain" />
