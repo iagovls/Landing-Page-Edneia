@@ -10,16 +10,16 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Mentoria Individual | A Marca é Você",
+  title: "Mentoria Individual | A Marca É Você®",
   description:
-    "Aumente seu faturamento em até 30 dias com 5 encontros individuais, plano estratégico e suporte contínuo.",
-  alternates: { canonical: "https://amarcaevoce.com.br" },
+    "Mentoria personalizada para mulheres empreendedoras: clareza, organização, posicionamento e estratégia para fortalecer você e seu negócio.",
+  alternates: { canonical: "https://landing-page-edneia.vercel.app/" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Mentoria Individual | A Marca é Você",
+    title: "Mentoria Individual | A Marca É Você®",
     description:
-      "Aumente seu faturamento em até 30 dias com 5 encontros individuais, plano estratégico e suporte contínuo.",
-    url: "https://amarcaevoce.com.br",
+      "Mentoria personalizada para mulheres empreendedoras: clareza, organização, posicionamento e estratégia para fortalecer você e seu negócio.",
+    url: "https://landing-page-edneia.vercel.app/",
     type: "website",
     images: [
       {
@@ -32,9 +32,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mentoria Individual | A Marca é Você",
+    title: "Mentoria Individual | A Marca É Você®",
     description:
-      "Aumente seu faturamento em até 30 dias com 5 encontros individuais, plano estratégico e suporte contínuo.",
+      "Mentoria personalizada para mulheres empreendedoras: clareza, organização, posicionamento e estratégia para fortalecer você e seu negócio.",
     images: ["/mentoria individual logo.png"],
   },
 };
