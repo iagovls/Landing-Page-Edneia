@@ -33,12 +33,12 @@ export default function BusinessPage(){
  return <main className="min-h-screen bg-[#FFFBF8] text-[#3C2430]">
    <section className="relative overflow-hidden bg-cover bg-center text-white" style={{backgroundImage:"url('/bg-hero.jpg')"}}>
      <div className="absolute inset-0 bg-gradient-to-r from-[#3D0E1F]/95 via-[#70283F]/90 to-[#3D0E1F]/75"/>
-     <div className="relative mx-auto max-w-6xl px-5 pb-20 pt-8 md:pb-28 md:pt-12">
+     <div className="relative mx-auto max-w-6xl px-5 pb-12 pt-8 md:pb-24 md:pt-12">
        <nav className="flex flex-wrap items-center justify-between gap-5">
          <Link href="/" aria-label="Voltar à página inicial"><Image src="/a-marca-e-voce-branco.png" alt="A Marca É Você" width={190} height={90} className="h-auto w-40 object-contain md:w-48"/></Link>
          <Link href="/raio-x-empresarial-360" className="rounded-full border border-[#E8C37A] px-5 py-2 text-sm font-semibold text-[#F6DFA8] hover:bg-white/10">Raio-X gratuito</Link>
        </nav>
-       <div className="mt-12 grid items-center gap-9 md:mt-20 md:grid-cols-[minmax(0,1.15fr)_minmax(280px,0.85fr)] md:gap-10"><div className="min-w-0">
+       <div className="mt-10 grid items-center gap-7 md:mt-20 md:grid-cols-[minmax(0,1.15fr)_minmax(280px,0.85fr)] md:gap-10"><div className="min-w-0">
          <p className="text-xs font-bold uppercase tracking-[.22em] text-[#E8C37A]">A Marca É Você® Business</p>
          <h1 className="mt-5 max-w-3xl text-4xl font-bold leading-tight md:text-6xl">Sua empresa só funciona quando você está presente?</h1>
          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/90 md:text-xl">Você contrata, orienta, delega… mas continua precisando cobrar, conferir e resolver. Enquanto sua equipe espera suas decisões, falta tempo para você cuidar do crescimento da empresa.</p>
@@ -47,7 +47,7 @@ export default function BusinessPage(){
          <p className="mt-10 border-l-2 border-[#E8C37A] pl-4 text-xl font-semibold text-[#F6DFA8] md:text-2xl">O gestor pode não estar presente, mas a cultura está.</p>
          <p className="mt-4 text-sm text-white/70">A virada começa em você.</p>
        </div>
-       <div className="mx-auto w-full max-w-[360px] md:max-w-[420px]"><div className="overflow-hidden rounded-[1.75rem] border border-[#E8C37A]/70 bg-[#70283F] p-1.5 shadow-2xl"><Image src="/913B763B-86BA-4574-AB03-864906457011.jpeg" alt="Ednéia Silva, consultora da A Marca É Você Business" width={864} height={1536} priority sizes="(max-width: 768px) 90vw, 420px" className="aspect-[4/5] w-full rounded-[1.4rem] object-cover object-[center_28%]"/></div><p className="mt-3 text-center text-sm font-semibold tracking-wide text-[#F6DFA8]">Ednéia Silva • Consultoria empresarial personalizada</p></div>
+       <div className="mx-auto w-full max-w-[280px] sm:max-w-[320px] md:max-w-[420px]"><div className="overflow-hidden rounded-[1.75rem] border border-[#E8C37A]/70 bg-[#70283F] p-1.5 shadow-2xl"><Image src="/913B763B-86BA-4574-AB03-864906457011.jpeg" alt="Ednéia Silva, consultora da A Marca É Você Business" width={864} height={1536} priority sizes="(max-width: 768px) 90vw, 420px" className="aspect-[4/4.3] w-full rounded-[1.4rem] object-cover object-[center_28%] md:aspect-[4/5]"/></div><p className="mt-2 text-center text-xs font-semibold tracking-wide text-[#F6DFA8] sm:text-sm">Ednéia Silva • Consultoria empresarial personalizada</p></div>
        </div>
      </div>
    </section>
