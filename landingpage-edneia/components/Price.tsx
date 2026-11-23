@@ -29,26 +29,14 @@ export default function Price() {
                 priority
               />
             </div>
-            <div className="flex items-baseline justify-center">
-              <div>
-                <p className="text-sm uppercase tracking-wide text-center text-zinc-500">Investimento</p>
-                <p className="mt-1 text-4xl md:text-5xl font-bold text-red-900">
-                  R$ 1.497,00
-                </p>
-              </div>
-              <div className="text-right" />
-            </div>
-
-            <p className="mt-4 text-zinc-700 text-sm text-center">
-              O valor de R$ 1.497,00 é um investimento no futuro do seu negócio — não um custo. Com o plano certo, você amplia o potencial de faturamento com ações práticas, objetivas e personalizadas.
-            </p>
+            <p className="text-center text-xl font-bold text-[#70283F]">Seu próximo passo começa com uma conversa.</p><p className="mt-4 text-zinc-700 text-sm text-center">A mentoria é personalizada para o momento do seu negócio. Responda a algumas perguntas e conheça os detalhes do acompanhamento e do investimento em uma conversa individual.</p>
 
             <ul className="mt-6 grid gap-3 grid-cols-1">
               {[
                 "Estratégia personalizada",
                 "Ações práticas e objetivas",
                 "Acompanhamento orientado",
-                "Aumento do faturamento",
+                "Estratégias para melhorar vendas e resultados",
                 "Suporte dedicado",
               ].map((item) => (
                 <li key={item} className="flex items-center gap-3">
@@ -60,9 +48,9 @@ export default function Price() {
 
             <div className="mt-8 flex flex-col items-center justify-center">
               <a
-                href="https://wa.me/5573998181724?text=Quero%20saber%20mais%20sobre%20a%20mentoria%20individual"
+                href="/empreender#conversar"
                 className="inline-flex w-full items-center text-center rounded-lg bg-gradient-to-r from-[#C53537] to-[#9E3134] text-white px-14 py-8 hover:cursor-pointer text-sm sm:text-xl font-bold transition-transform transition-shadow hover:scale-105 hover:shadow-[0_0_24px_#C73638]"
-                aria-label="Quero Destravar Meu Crescimento"
+                aria-label="Quero conversar sobre minha mentoria"
               >
                 Quero Destravar Meu Crescimento
               </a>
@@ -76,7 +64,7 @@ export default function Price() {
         </div>
 
         <p className="mt-10 text-center text-zinc-100">
-          A decisão que você toma hoje pode transformar o faturamento do seu negócio nos próximos meses.
+          Sua próxima decisão pode trazer mais clareza, organização e direção ao seu negócio.
         </p>
       </div>
     </section>
