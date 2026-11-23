@@ -60,7 +60,7 @@ export default function HeroMobile() {
         <div className="flex mt-10 justify-center ">
           <PrimaryButton asChild>
             <Link href={href} aria-label="Quero conversar sobre minha mentoria">
-              Garantir minha vaga
+              Quero conversar sobre minha mentoria
             </Link>
           </PrimaryButton>
         </div>
