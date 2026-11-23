@@ -17,8 +17,17 @@ const frentes = [
 ];
 const whatsapp="https://wa.me/5573998181724?text="+encodeURIComponent("Olá! Conheci a A Marca É Você® Business e gostaria de conversar sobre os desafios da minha empresa.");
 export const metadata = {
-  title:"Consultoria Empresarial Personalizada | A Marca É Você® Business",
-  description:"Sua empresa depende de você para tudo. Até quando? Conheça uma consultoria empresarial personalizada para gestão, liderança, cultura e execução."
+  title:"A Marca É Você® Business | Consultoria Empresarial",
+  description:"Sua empresa depende de você para tudo? Consultoria personalizada para fortalecer lideranças, organizar a gestão e desenvolver equipes.",
+  alternates:{canonical:"https://landing-page-edneia.vercel.app/business"},
+  openGraph:{
+    title:"A Marca É Você® Business | Consultoria Empresarial",
+    description:"Sua empresa depende de você para tudo? Conheça a consultoria empresarial personalizada de Ednéia Silva.",
+    url:"https://landing-page-edneia.vercel.app/business",
+    type:"website",
+    images:[{url:"/imagem%20quem%20%C3%A9%20Edneia.png",alt:"Ednéia Silva — A Marca É Você Business"}]
+  },
+  twitter:{card:"summary_large_image",title:"A Marca É Você® Business | Consultoria Empresarial",description:"Liderança, gestão e cultura com soluções personalizadas para sua empresa.",images:["/imagem%20quem%20%C3%A9%20Edneia.png"]}
 };
 export default function BusinessPage(){
  return <main className="min-h-screen bg-[#FFFBF8] text-[#3C2430]">
