@@ -42,38 +42,24 @@ export default function HeroMobile() {
         <p className="mt-3 text-sm text-white text-center">Desenvolvendo pessoas, fortalecendo empresas e transformando histórias.</p>
 
         <p className="mt-6 text-xl text-white text-center">
-          Transforme Seu Negócio{" "}
-          <span className="font-bold text-[#C73638] whitespace-nowrap">
-            em 30 Dias
-          </span>
-          :{" "}
-          <br />
-          <span className="font-bold">
-            Aumente Seu Faturamento e Destrave Seu Potencial
-          </span>
-          !
+          Você trabalha muito pelo seu negócio, mas sente que os resultados não acompanham seu esforço?
         </p>
 
         <div className="mt-6 space-y-4 text-sm text-white">
           <p>
-            Empreender é mais do que ter uma ideia. É sobre transformar essa
-            ideia em um negócio próspero.
-          </p>
+            Você não precisa continuar resolvendo tudo sozinha. Clareza, organização e estratégia começam com um plano que considera a sua realidade.</p>
           <p>
-            Se você está pronto para aumentar o faturamento do seu negócio em
-            até 30 dias e finalmente destravar todo o potencial que você já tem,
-            este é o momento para dar o próximo passo.
-          </p>
+            Unimos desenvolvimento pessoal, diagnóstico do negócio e ações práticas para você tomar decisões com mais segurança.</p>
           <p>
             Com 5 encontros individuais totalmente personalizados, vamos
-            trabalhar juntos para planejar, executar e alavancar seu negócio de
+            trabalhar juntas para planejar, executar e alavancar seu negócio de
             forma eficaz.
           </p>
         </div>
 
         <div className="flex mt-10 justify-center ">
           <PrimaryButton asChild>
-            <Link href={href} aria-label="Garantir minha vaga">
+            <Link href={href} aria-label="Quero conversar sobre minha mentoria">
               Garantir minha vaga
             </Link>
           </PrimaryButton>
