@@ -32,8 +32,8 @@ export default function Home() {
               <p className="mt-3 leading-relaxed text-rose-100">
                 Mentorias e desenvolvimento para mulheres que desejam empreender com clareza, direção e resultados.
               </p>
-              <a href="#mentoria-individual" className="mt-6 inline-block rounded-lg bg-rose-300 px-5 py-3 font-semibold text-red-950 transition hover:bg-rose-200">
-                Conhecer as mentorias
+              <a href="/empreender" className="mt-6 inline-block rounded-lg bg-rose-300 px-5 py-3 font-semibold text-red-950 transition hover:bg-rose-200">
+                Conhecer a mentoria individual
               </a>
             </div>
             <div className="rounded-2xl border border-white/20 bg-white/10 p-6 md:p-8">
